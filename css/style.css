@@ -108,7 +108,7 @@ section {
 }
 
 @media (max-width:767px) {
-    lists {
+    .lists {
         grid-template-columns: 1fr 1fr;
     }
 }
