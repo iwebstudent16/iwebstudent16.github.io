@@ -16,7 +16,7 @@ a {
 /* HEADER */
 
 header {
-    background: black;
+    background: seagreen;
     color: silver;
     padding: 1em 2em;
 }
@@ -27,8 +27,8 @@ header a {
 
 header {
     display: grid;
-    Grid-template-columns: 1fr
-    1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 /* SITE ID */
@@ -83,11 +83,13 @@ section {
     text-align: center;
     background: green;
     min-height: 50vh;
-    color: silver;
+    color: cyan;
 }
 
 .page-home .hero {
-    background-image: url(https://picsum.photos/id/1043/1600/800)
+    background-image: url(https://picsum.photos/id/1043/1600/800);
+    background-position: bottom right;
+    background-size: cover;
 }
 
 
@@ -95,6 +97,7 @@ section {
     font-size: 6em;
     text-transform: uppercase;
     margin: 0 auto;
+    font-family: 'Lato';
 }
 
 .hero p {
