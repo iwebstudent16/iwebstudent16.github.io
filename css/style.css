@@ -83,7 +83,7 @@ section {
     text-align: center;
     background: green;
     min-height: 50vh;
-    color: rgb(0, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 h2 {
@@ -94,6 +94,7 @@ h2 {
     background-image: url(https://picsum.photos/id/1043/1600/800);
     background-position: bottom right;
     background-size: cover;
+    background-color: black;
 }
 
 
